@@ -2,7 +2,7 @@
 
 <h3 align="center">Um apaixonado por Programação</h3>
 
-<img align="center" height="400%" width="100%" src="https://user-images.githubusercontent.com/73085812/111915663-353ddf80-8a56-11eb-99b0-fb437d1525e1.gif">
+<img align="center" height="200%" width="100%" src="https://user-images.githubusercontent.com/73085812/113442528-948cdf80-93c6-11eb-8525-9d010f407fa4.gif">
 
 >“Eu sempre quis que o meu computador fosse tão fácil de usar como o meu telefone, o meu desejo foi realizado pois eu já não consigo descobrir como usar o meu telefone.” -Bjarne Stroustrup
 
