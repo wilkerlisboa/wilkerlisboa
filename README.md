@@ -1,9 +1,7 @@
 <h1 align = "left"> Ei 👋</h1>
 
-<h3 align="left">Um apaixonado por Programação</h3>
+#### A in love by programming
 
-
->““Dificuldades preparam pessoas comuns para destinos extraordinários” C.S Lewis
 
 ## Formação Academica
 - Tecnologia da Informação e Comunicação 🎓
