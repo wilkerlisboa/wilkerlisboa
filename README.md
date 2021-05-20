@@ -5,7 +5,7 @@
 
 ## Formação Academica
 - Tecnologia da Informação e Comunicação 🎓
-- Programação Movel IoT 📚
+- Programação Movel IoT 🎓
 - Analise Desenvolvimento de Sistemas 📚
 
 
