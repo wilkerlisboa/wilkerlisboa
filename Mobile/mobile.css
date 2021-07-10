@@ -1,6 +1,6 @@
 @media  only screen and  (max-width: 768px),  only screen and (max-device-width: 768px){
     body {
-        background: url(./Image/giphy.gif);
+        background: url(../Image/giphy.gif);
         background-position: left center;
         background-size: cover;
     }
