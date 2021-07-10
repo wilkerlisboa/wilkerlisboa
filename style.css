@@ -21,21 +21,3 @@ h1{
 
 
 
-@media  only screen and  (max-width: 768px),  only screen and (max-device-width: 768px){
-    body {
-        background: url(./Image/giphy.gif);
-        background-position: left center;
-        background-size: cover;
-    }
-    h1{
-        letter-spacing: 1px;
-        margin: 302px 0px 0px 34px;
-        position: absolute;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 44px;
-        color: white;
-        font-family: 'Ubuntu Mono', monospace;
-    }
-
-}
