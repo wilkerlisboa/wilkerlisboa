@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media  only screen and  (max-width: 410px),  only screen and (max-device-width: 996px){
+    
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        overflow-x: hidden;
+        height: 100vh;
+        width: 100%;
+        overflow-y: scroll;
+        display: flex;
+        background: linear-gradient(180deg, #2445EB 1.24%, black);
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .block{
+        width: 308px;
+        height: 359px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        display: flex;
+        background: #FFF;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+    }
+    .img-perfil{
+        width: 150px;
+        height: 150px;
+        flex-shrink: 0;
+        margin-top: -21%;
+        background-color: red;
+        border-radius: 75px;
+    }
+    .name{
+        color: var(--font, #2445EB);
+        text-align: center;
+        /* font-text */
+        font-family: Rubik Glitch;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 4%;
+    }
+    .profissao{
+        margin-top: 3%;
+        color: #20444F;
+        text-align: center;
+        font-family: VT323;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .icon{
+        width: 100%;
+        height: 20%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    img{
+        padding: 4%;
+    }
+    .button{
+        width: 266px;
+        height: 47px;
+        flex-shrink: 0;
+        margin-top: 6%;
+        border-radius: 8px;
+        background: var(--BUTTON, #2445EB);
+        box-shadow: 0px 30px 25px -17px #2445EB;
+    }
+    .title-button{
+        color: #FFF;
+        text-align: center;
+        /* FONT-H1 */
+        font-family: Ubuntu Mono;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -18%;
+    }
+    /* SEGUNDA PAGINA */
+    .buttonOfBack{
+        width: 280px;
+        margin-top: -184%;
+        margin-left: -32%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    .segunda-img-perfil{
+        width: 23px;
+        height: 23px;
+        flex-shrink: 0;
+        border-radius: 75px;
+        background: url("../image/perfil.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .segundo-name{
+        margin-left: 5%;
+        color: #FFF;
+        text-align: center;
+        /* FONT-H2 */
+        font-family: Rubik Glitch;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .segundo-block{
+        width: 308px;
+        height: 626px;
+        overflow: auto;
+        position: absolute;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: #FFF;
+    }
+    /* SOBRE */
+    .title-sobre{
+        color: #1D1F22;
+        text-align: center;
+        font-family: "Press Start 2P";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: -50%;
+        margin-top: 10%;
+    }
+    @font-face {
+        font-family: "Press Start 2P";
+        src:
+          url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf") format("truetype"),
+          url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf") format("truetype");
+    }
+    .text-sobre{
+        width: 225px;
+        margin-left: 12%;
+        margin-top: 7%;
+        color: #20444F;
+        font-family: Itim;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    /* PROJETO */
+    .title-projeto{
+        color: #1D1F22;
+        text-align: center;
+        /* font - primaria */
+        font-family: "Press Start 2P";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10%;
+        margin-left: -31%;
+    }
+    .LinkProjeto{
+        width: 226px;
+        height: 71px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: rgba(217, 217, 217, 0.50);
+        color: #20444F;
+        text-align: center;
+        font-family: VT323;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        flex-wrap: nowrap;
+        /* align-content: center; */
+        align-items: center;
+        padding-left: 5%;
+        margin-top: 6%;
+        margin-left: 11%;
+    }
+    .textOfprojeto{
+        width: 225px;
+        margin-left: 12%;
+        margin-top: 4%; 
+        color: #20444F;
+        /* font-terceir */
+        font-family: Itim;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;   
+    }
+     /* ARTIGO */
+    .title-artigo{
+        color: #1D1F22;
+        text-align: center;
+        /* font - primaria */
+        font-family: "Press Start 2P";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10%;
+        margin-left: -35%;
+    }
+    .LinkArtigo{
+        width: 226px;
+        height: 71px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: rgba(217, 217, 217, 0.50);
+        color: #20444F;
+        text-align: center;
+        font-family: VT323;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        flex-wrap: nowrap;
+        /* align-content: center; */
+        align-items: center;
+        padding-left: 5%;
+        margin-left: 11%;
+        margin-top: 6%;
+    }
+    .textOfArtigo{
+        width: 225px;
+        margin-left: 12%;
+        margin-top: 4%; 
+        color: #20444F;
+        /* font-terceir */
+        font-family: Itim;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;  
+    }
+    /* RODA PE */
+    footer{
+        width: 226px;
+        margin-top: 185%;
+        position: absolute;
+    }
+}
