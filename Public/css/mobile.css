@@ -5,7 +5,7 @@
 
 @media  only screen and  (max-width: 410px),  only screen and (max-device-width: 996px){
     body{
-        overflow: hidden;
+        overflow-y: hidden;
     }
     main{
         overflow-x: hidden;
