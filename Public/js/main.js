@@ -2,7 +2,7 @@ function botao(){
     window.open("./Public/assests/alpha.html", "_self");
 }
 function botaoVoltar(){
-    window.open(".../index.html", "_self");
+    window.open("https://wilkerlisboa.github.io/wilkerlisboa/", "_self");
 }
 function projeto1(){
     window.open("https://github.com/wilkerlisboa/PDV-Ponto-De-Venda");
