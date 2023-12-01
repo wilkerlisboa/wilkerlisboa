@@ -73,6 +73,8 @@
     }
     img{
         padding: 4%;
+        user-select: none;
+        pointer-events: none;
     }
     .button{
         width: 266px;
