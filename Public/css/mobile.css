@@ -94,6 +94,8 @@
         font-weight: 400;
         line-height: normal;
         margin-top: -18%;
+        user-select: none;
+        pointer-events: none;
     }
     /* SEGUNDA PAGINA */
     .buttonOfBack{
@@ -262,6 +264,22 @@
     footer{
         width: 226px;
         margin-top: 185%;
+        position: absolute;
+    }
+}
+@media  only screen and  (max-width: 210px),  only screen and (max-device-width: 996px){
+    .segundo-block {
+        width: 308px;
+        height: 536px;
+        overflow: auto;
+        position: absolute;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: #FFF;
+    }
+    footer{
+        width: 226px;
+        margin-top: 171%;
         position: absolute;
     }
 }
