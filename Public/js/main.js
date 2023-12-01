@@ -8,8 +8,12 @@ function projeto1(){
     window.open("https://github.com/wilkerlisboa/PDV-Ponto-De-Venda");
 }
 function projeto2(){
-    window.open("https://github.com/wilkerlisboa/login");
+    window.open("https://github.com/wilkerlisboa/bombas");
 }
+function projeto3(){
+    window.open("https://github.com/wilkerlisboa/Gerenciador-de-senha");
+}
+// ARTIGOS
 function artigo1(){
     window.open("https://dev.to/wilkerlisboa");
 }
