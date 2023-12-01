@@ -115,6 +115,8 @@ img{
     font-weight: 400;
     line-height: normal;
     margin-top: -18%;
+    user-select: none;
+    pointer-events: none;
 }
 /* SEGUNDA PAGINA */
 .buttonOfBack{
